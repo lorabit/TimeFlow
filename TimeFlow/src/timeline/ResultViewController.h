@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ResultViewController : UIViewController
+#import "ImageCell.h"
+
+@interface ResultViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,ImageCellDelegate>
+
+@property(nonatomic,copy) NSString* keyword;
 
 @end

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A8D5DE71CBCCDFA00B51A40 /* TFEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D5DE61CBCCDFA00B51A40 /* TFEditorViewController.m */; };
+		4A8D5DE91CBCCF9600B51A40 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D5DE81CBCCF9600B51A40 /* Media.xcassets */; };
+		4A8D5DEC1CBCD17F00B51A40 /* TFTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D5DEB1CBCD17F00B51A40 /* TFTextAttachment.m */; };
+		4AA726111CE4C81B009C9FBF /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA726101CE4C81B009C9FBF /* ResultViewController.m */; };
+		4AA726141CE4E00B009C9FBF /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA726131CE4E00B009C9FBF /* ImageCell.m */; };
 		4AF8E5AC1C88984B0069E87C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8E5AB1C88984B0069E87C /* main.m */; };
 		4AF8E5AF1C88984B0069E87C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8E5AE1C88984B0069E87C /* AppDelegate.m */; };
 		4AF8E5B71C88984B0069E87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8E5B61C88984B0069E87C /* Assets.xcassets */; };
@@ -26,6 +31,15 @@
 
 /* Begin PBXFileReference section */
 		4017705D6FCB855ADE5D0EE9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4A8D5DE51CBCCDFA00B51A40 /* TFEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFEditorViewController.h; sourceTree = "<group>"; };
+		4A8D5DE61CBCCDFA00B51A40 /* TFEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFEditorViewController.m; sourceTree = "<group>"; };
+		4A8D5DE81CBCCF9600B51A40 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		4A8D5DEA1CBCD17F00B51A40 /* TFTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTextAttachment.h; sourceTree = "<group>"; };
+		4A8D5DEB1CBCD17F00B51A40 /* TFTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTextAttachment.m; sourceTree = "<group>"; };
+		4AA7260F1CE4C81B009C9FBF /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		4AA726101CE4C81B009C9FBF /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		4AA726121CE4E00B009C9FBF /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		4AA726131CE4E00B009C9FBF /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 		4AF8E5A71C88984B0069E87C /* TimeFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF8E5AB1C88984B0069E87C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AF8E5AD1C88984B0069E87C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +113,7 @@
 				4AF8E5BB1C88984B0069E87C /* Info.plist */,
 				4AF8E5AA1C88984B0069E87C /* Supporting Files */,
 				4AF8E5CF1C889A210069E87C /* Header.h */,
+				4A8D5DE81CBCCF9600B51A40 /* Media.xcassets */,
 			);
 			path = TimeFlow;
 			sourceTree = "<group>";
@@ -145,6 +160,12 @@
 			children = (
 				4AF8E5C61C8899560069E87C /* TimeLineViewController.h */,
 				4AF8E5C71C8899560069E87C /* TimeLineViewController.m */,
+				4A8D5DE51CBCCDFA00B51A40 /* TFEditorViewController.h */,
+				4A8D5DE61CBCCDFA00B51A40 /* TFEditorViewController.m */,
+				4AA7260F1CE4C81B009C9FBF /* ResultViewController.h */,
+				4AA726101CE4C81B009C9FBF /* ResultViewController.m */,
+				4AA726121CE4E00B009C9FBF /* ImageCell.h */,
+				4AA726131CE4E00B009C9FBF /* ImageCell.m */,
 			);
 			path = timeline;
 			sourceTree = "<group>";
@@ -168,6 +189,8 @@
 				4AF8E5E01C88A4A00069E87C /* TFDataBase.m */,
 				4AF8E5E21C88A9C30069E87C /* NSObject+TF.h */,
 				4AF8E5E31C88A9C30069E87C /* NSObject+TF.m */,
+				4A8D5DEA1CBCD17F00B51A40 /* TFTextAttachment.h */,
+				4A8D5DEB1CBCD17F00B51A40 /* TFTextAttachment.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -222,6 +245,7 @@
 				TargetAttributes = {
 					4AF8E5A61C88984B0069E87C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RT43LXV8ZD;
 					};
 				};
 			};
@@ -248,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8D5DE91CBCCF9600B51A40 /* Media.xcassets in Resources */,
 				4AF8E5B71C88984B0069E87C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,16 +335,20 @@
 				4AF8E5D21C889C8D0069E87C /* TFViewController.m in Sources */,
 				4AF8E5E41C88A9C30069E87C /* NSObject+TF.m in Sources */,
 				4AF8E5AF1C88984B0069E87C /* AppDelegate.m in Sources */,
+				4A8D5DE71CBCCDFA00B51A40 /* TFEditorViewController.m in Sources */,
 				4AF8E5CE1C8899FD0069E87C /* TFTool.m in Sources */,
 				4AF8E5E71C88ACAE0069E87C /* CategoryModel.m in Sources */,
 				4AF8E5C81C8899560069E87C /* TimeLineViewController.m in Sources */,
 				4AF8E5D51C889D930069E87C /* UIColor+TF.m in Sources */,
+				4A8D5DEC1CBCD17F00B51A40 /* TFTextAttachment.m in Sources */,
 				4AF8E5DE1C88A3F70069E87C /* TFModel.m in Sources */,
+				4AA726141CE4E00B009C9FBF /* ImageCell.m in Sources */,
 				4AF8E5D81C889E3B0069E87C /* UINavigationController+TF.m in Sources */,
 				4AF8E5DB1C889EDE0069E87C /* UIImage+TF.m in Sources */,
 				4AF8E5AC1C88984B0069E87C /* main.m in Sources */,
 				4AF8E5E11C88A4A00069E87C /* TFDataBase.m in Sources */,
 				4AF8E5CB1C8899890069E87C /* AppDelegate+RootView.m in Sources */,
+				4AA726111CE4C81B009C9FBF /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,11 +442,14 @@
 			baseConfigurationReference = B064141953FC13E51CB99F58 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TimeFlow/Header.h";
 				INFOPLIST_FILE = TimeFlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lorabit.TimeFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,11 +458,14 @@
 			baseConfigurationReference = 4017705D6FCB855ADE5D0EE9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TimeFlow/Header.h";
 				INFOPLIST_FILE = TimeFlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lorabit.TimeFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ImageCellDelegate <NSObject>
+
+-(void)clickBtn;
+
+@end
+
+typedef void(^DefaultBlock)();
+
 @interface ImageCell : UITableViewCell
+
+@property(nonatomic,strong) NSDictionary* data;
+@property(nonatomic,weak) id<ImageCellDelegate> controller;
+@property(nonatomic,copy) DefaultBlock block;
 
 @end
